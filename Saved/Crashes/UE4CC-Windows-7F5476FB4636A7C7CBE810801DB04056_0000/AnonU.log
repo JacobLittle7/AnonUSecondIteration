@@ -1,0 +1,982 @@
+﻿Log file open, 10/12/17 00:27:44
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: AnonU
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1452025703) SRandInit(1452025703).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.181187
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.12-04.27.47:183][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.12-04.27.47:183][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.12-04.27.47:420][  0]LogInit: Computer: MYSHIT
+[2017.10.12-04.27.47:420][  0]LogInit: User: Dax
+[2017.10.12-04.27.47:420][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.12-04.27.47:420][  0]LogInit: High frequency timer resolution =2.143474 MHz
+[2017.10.12-04.27.47:420][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.12-04.27.47:420][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.27.47:420][  0]LogMemory: Process Physical Memory: 276.88 MB used, 276.88 MB peak
+[2017.10.12-04.27.47:420][  0]LogMemory: Process Virtual Memory: 276.05 MB used, 276.05 MB peak
+[2017.10.12-04.27.47:420][  0]LogMemory: Physical Memory: 6521.34 MB used,  1581.34 MB free, 8102.68 MB total
+[2017.10.12-04.27.47:420][  0]LogMemory: Virtual Memory: 666.87 MB used,  1581.34 MB free, 134217728.00 MB total
+[2017.10.12-04.27.47:880][  0]LogInit: Using OS detected language (en-US).
+[2017.10.12-04.27.47:880][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.12-04.27.47:889][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.12-04.27.49:490][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.12-04.27.49:499][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.10.12-04.27.49:499][  0]LogD3D11RHI:       128/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.12-04.27.49:503][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.12-04.27.49:503][  0]LogD3D11RHI:       0/0/4051 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.12-04.27.49:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.12-04.27.49:512][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.12-04.27.49:512][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.12-04.27.49:512][  0]LogWindows: EnumDisplayDevices:
+[2017.10.12-04.27.49:512][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.10.12-04.27.49:512][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.10.12-04.27.49:513][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.10.12-04.27.49:513][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.10.12-04.27.49:513][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
+[2017.10.12-04.27.49:513][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2017.10.12-04.27.49:513][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2017.10.12-04.27.49:513][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.12-04.27.49:520][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.12-04.27.49:527][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.10.12-04.27.49:529][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Dax/Desktop/New folder/AnonU/Intermediate/Shaders/WorkingDirectory/12156/).
+[2017.10.12-04.27.49:529][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dax/AppData/Local/Temp/UnrealShaderWorkingDir/3F47F9654B79CAAF6FE28898FE39292E/'.
+[2017.10.12-04.27.49:529][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.12-04.27.51:605][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.12-04.27.51:741][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.12-04.27.51:877][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.12-04.27.52:012][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.12-04.27.52:152][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.12-04.27.52:291][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.12-04.27.52:428][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.12-04.27.52:563][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.12-04.27.52:691][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.12-04.27.52:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.12-04.27.52:960][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.12-04.27.53:099][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.12-04.27.53:237][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.12-04.27.53:370][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.12-04.27.53:507][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.12-04.27.53:777][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.12-04.27.53:777][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.12-04.27.53:897][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.12-04.27.54:104][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.12-04.27.54:171][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.12-04.27.54:304][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.12-04.27.54:436][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.12-04.27.54:570][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.12-04.27.54:702][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.12-04.27.54:702][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.12-04.27.55:962][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.12-04.27.56:094][  0]LogDerivedDataCache: Loaded boot cache 0.13s 93MB C:/Users/Dax/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.12-04.27.56:094][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dax/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.12-04.27.56:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dax/Desktop/New folder/AnonU/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.12-04.27.56:094][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.12-04.27.56:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dax/Desktop/New folder/AnonU/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.12-04.27.56:095][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.12-04.27.56:124][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.12-04.27.56:196][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dax/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.12-04.27.56:215][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.12-04.27.56:215][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.12-04.27.56:218][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.12-04.27.56:218][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.12-04.27.56:738][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2017.10.12-04.27.57:002][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.12-04.27.57:349][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.12-04.27.58:136][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.12-04.27.58:313][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.12-04.27.58:313][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.12-04.27.58:313][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.12-04.27.58:313][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.12-04.27.58:313][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.12-04.27.58:985][  0]LogNetVersion: AnonU , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2782841342)
+[2017.10.12-04.27.59:840][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.388766 seconds
+[2017.10.12-04.27.59:850][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.12-04.27.59:850][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.12-04.27.59:850][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.12-04.28.00:014][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.12-04.28.07:323][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.12-04.28.07:411][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.12-04.28.09:200][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.12-04.28.10:315][  0]SourceControl: Source control is disabled
+[2017.10.12-04.28.10:315][  0]SourceControl: Source control is disabled
+[2017.10.12-04.28.10:455][  0]SourceControl: Source control is disabled
+[2017.10.12-04.28.10:596][  0]SourceControl: Source control is disabled
+[2017.10.12-04.28.12:252][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.12-04.28.12:967][  0]LogOcInput: OculusInput pre-init called
+[2017.10.12-04.28.13:652][  0]LogEngine: Initializing Engine...
+[2017.10.12-04.28.13:655][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.12-04.28.14:044][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.12-04.28.14:044][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.12-04.28.14:465][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.12-04.28.14:476][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-04.28.14:783][  0]LogInit: FAudioDevice initialized.
+[2017.10.12-04.28.16:326][  0]LogDerivedDataCache: Saved boot cache 1.54s 93MB C:/Users/Dax/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.12-04.28.16:358][  0]LogInit: Texture streaming: Enabled
+[2017.10.12-04.28.16:657][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.12-04.28.17:512][  0]LogInit: Transaction tracking system initialized
+[2017.10.12-04.28.18:454][  0]BlueprintLog: New page: Editor Load
+[2017.10.12-04.28.21:031][  0]LocalizationService: Localization service is disabled
+[2017.10.12-04.28.23:064][  0]LogConsoleResponse: Display: 
+[2017.10.12-04.28.23:584][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dax/Desktop/New folder/AnonU/Content/' took 0.04s
+[2017.10.12-04.28.23:584][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.12-04.28.23:585][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.12-04.28.23:585][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.12-04.28.26:577][  0]SourceControl: Source control is disabled
+[2017.10.12-04.28.26:577][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.12-04.28.26:578][  0]LightingResults: New page: Lighting Build
+[2017.10.12-04.28.26:700][  0]MapCheck: New page: Map Check
+[2017.10.12-04.28.26:700][  0]LightingResults: New page: Lighting Build
+[2017.10.12-04.28.28:992][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.28.31:159][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.12-04.28.31:466][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.12-04.28.31:680][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 213.802ms to complete.
+[2017.10.12-04.28.31:680][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 5.103
+[2017.10.12-04.28.31:768][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.12-04.28.33:289][  0]LogCollectionManager: Loaded 0 collections in 0.003097 seconds
+[2017.10.12-04.28.33:737][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dax/Desktop/New folder/AnonU/Saved/Collections/' took 0.01s
+[2017.10.12-04.28.33:737][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dax/Desktop/New folder/AnonU/Content/Developers/Dax/Collections/' took 0.01s
+[2017.10.12-04.28.33:737][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dax/Desktop/New folder/AnonU/Content/Collections/' took 0.01s
+[2017.10.12-04.28.33:737][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.12-04.28.33:757][  0]LogContentBrowser: Native class hierarchy populated in 0.0160 seconds. Added 2386 classes and 500 folders.
+[2017.10.12-04.28.34:045][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.10.12-04.28.35:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.10.12-04.28.35:595][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.12-04.28.36:579][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.10.12-04.28.36:579][  0]LogLoad: (Engine Initialization) Total time: 55.65 seconds
+[2017.10.12-04.28.36:579][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.12-04.28.36:579][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.12-04.28.36:804][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.12-04.28.36:820][  0]LogSlate: Took 0.001395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.12-04.28.36:824][  0]LogSlate: Took 0.000529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.12-04.28.36:868][  0]LogSlate: Took 0.014888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.12-04.28.38:124][  0]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
+[2017.10.12-04.28.38:124][  0]LogSlate: Took 0.044529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.12-04.28.42:421][  2]LogAssetRegistry: Asset discovery search completed in 45.7055 seconds
+[2017.10.12-04.28.42:508][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.12-04.28.42:508][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2017.10.12-04.28.59:914][444]LogRenderer: Reallocating scene render targets to support 808x360 Format 10 NumSamples 1 (Frame:339).
+[2017.10.12-04.29.00:028][444]LogRenderer: Reallocating scene render targets to support 816x360 Format 10 NumSamples 1 (Frame:340).
+[2017.10.12-04.29.00:142][444]LogRenderer: Reallocating scene render targets to support 852x360 Format 10 NumSamples 1 (Frame:341).
+[2017.10.12-04.29.20:572][849]Cmd: MAP LOAD FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.12-04.29.20:643][849]LogSlate: Took 0.000456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.12-04.29.20:731][849]LightingResults: New page: Lighting Build
+[2017.10.12-04.29.20:734][849]LoadErrors: New page: Loading map: PuzzleExampleMap.umap
+[2017.10.12-04.29.20:762][849]MapCheck: New page: Map Check
+[2017.10.12-04.29.20:762][849]LightingResults: New page: Lighting Build
+[2017.10.12-04.29.21:829][849]LogBlueprint: Warning: [Compiler PuzzlePlayerCharacter] InputAction Event references unknown Action 'TriggerClick' for  InputAction TriggerClick
+[2017.10.12-04.29.21:829][849]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.10.12-04.29.21:829][849]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.10.12-04.29.21:829][849]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.10.12-04.29.21:829][849]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] Could not find a function named "HighlightOff" in 'PuzzleBlock_C'.
+Make sure 'PuzzleBlock_C' has been compiled for  Highlight Off
+[2017.10.12-04.29.21:840][849]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.10.12-04.29.21:840][849]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.10.12-04.29.21:840][849]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] Could not find a function named "HighlightOn" in 'PuzzleBlock_C'.
+Make sure 'PuzzleBlock_C' has been compiled for  Highlight On
+[2017.10.12-04.29.21:856][849]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] This blueprint (self) is not a PuzzleBlock_C, therefore ' Target ' must have a connection.
+[2017.10.12-04.29.21:860][849]LogBlueprint: Warning: [Compiler PuzzlePlayerCharacter] [0100.93] Compile of PuzzlePlayerCharacter failed. 8 Fatal Issue(s) 1 Warning(s) [in 75 ms] (/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter.PuzzlePlayerCharacter)
+[2017.10.12-04.29.21:943][849]LogSlate: Took 0.000566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.12-04.29.22:257][849]LogMaterial: Missing cached shader map for material green_material, compiling. 
+[2017.10.12-04.29.23:225][849]LogMaterial: Missing cached shader map for material Red_Material, compiling. 
+[2017.10.12-04.29.24:399][849]LogTexture: Display: Building textures: 2389301872_057e4f0430_o (AutoDXT, 2816X2112)
+[2017.10.12-04.29.32:215][849]LogMaterial: Missing cached shader map for material 2389301872_057e4f0430_o_Mat, compiling. 
+[2017.10.12-04.29.32:301][849]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.10.12-04.29.33:018][849]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.12-04.29.34:712][849]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.12-04.29.34:980][849]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 268.103ms to complete.
+[2017.10.12-04.29.34:980][849]LogFileHelpers: Loading map 'PuzzleExampleMap' took 14.516
+[2017.10.12-04.29.47:793][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphere)
+[2017.10.12-04.29.52:837][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphere)
+[2017.10.12-04.30.14:811][643]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.12-04.30.15:667][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.10.12-04.30.15:679][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-04.30.21:859][643]PIE: New page: PIE session: PuzzleExampleMap (Oct 11, 2017, 8:30:21 PM)
+[2017.10.12-04.30.21:873][643]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2017.10.12-04.30.21:972][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098921s)
+[2017.10.12-04.30.21:973][643]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.10.12-04.30.21:974][643]LogPlayLevel: PIE: World Init took: (0.001760s)
+[2017.10.12-04.30.21:986][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.112905s)
+[2017.10.12-04.30.22:038][643]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-04.30.22:066][643]LogInit: FAudioDevice initialized.
+[2017.10.12-04.30.22:179][643]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.10.12-04.30.22:359][643]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2017.10.12-00.30.22
+[2017.10.12-04.30.22:377][643]LogWorld: Bringing up level for play took: 0.023269
+[2017.10.12-04.30.22:943][643]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2017.10.12-04.30.23:612][643]PIE: Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 8.521
+[2017.10.12-04.30.23:612][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.10.12-04.30.31:646][780]LogBlueprintUserMessages: [PuzzleBlock_C_169] red
+[2017.10.12-04.30.35:339][856]LogBlueprintUserMessages: [PuzzleBlock_C_17] blue
+[2017.10.12-04.30.35:339][856]LogBlueprintUserMessages: [PuzzleBlock_C_17] blue
+[2017.10.12-04.30.38:173][913]LogBlueprintUserMessages: [PuzzleBlock_C_40] blue
+[2017.10.12-04.30.38:173][913]LogBlueprintUserMessages: [PuzzleBlock_C_40] blue
+[2017.10.12-04.30.53:358][234]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.10.12-04.30.53:508][234]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.10.12-04.31.35:621][213]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 113 classes and 0 folders.
+[2017.10.12-04.31.38:341][213]LogSlate: Took 0.007888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.12-04.31.39:026][214]LogSlate: Took 0.077751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.12-04.32.20:845][624]Cmd: MAP LOAD FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.12-04.32.20:863][624]LightingResults: New page: Lighting Build
+[2017.10.12-04.32.20:865][624]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2017.10.12-04.32.20:867][624]MapCheck: New page: Map Check
+[2017.10.12-04.32.20:867][624]LightingResults: New page: Lighting Build
+[2017.10.12-04.32.21:279][624]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.32.22:514][624]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.12-04.32.22:634][624]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.12-04.32.22:892][624]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 257.702ms to complete.
+[2017.10.12-04.32.22:892][624]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.048
+[2017.10.12-04.34.26:321][781]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0011 seconds. Added 2 classes and 3 folders.
+[2017.10.12-04.35.21:574][ 48]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.10.12-04.35.26:698][366]LogAIModule: Creating AISystem for world PuzzleExampleMap1
+[2017.10.12-04.35.51:305][468]Cmd: TRANSACTION UNDO
+[2017.10.12-04.35.51:305][468]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-04.35.51:372][468]LogSlate: Took 0.002362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.12-04.36.10:661][392]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.10.12-04.36.28:031][933]LogMetaData: Removing '/Game/Minigame.SKEL_Minigame_C' ref from Metadata '/Game/PuzzleExampleMap.PackageMetaData'
+[2017.10.12-04.36.28:031][933]LogMetaData: Removing '/Game/Minigame.Minigame_C' ref from Metadata '/Game/PuzzleExampleMap.PackageMetaData'
+[2017.10.12-04.36.28:673][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Minigame" FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/Minigame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.12-04.36.29:530][933]LogSavePackage: Save=708.67ms
+[2017.10.12-04.36.29:530][933]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Minigame5425ECCC4B3B15AD949202BF4C55A2DB.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/Minigame.umap'
+[2017.10.12-04.36.29:553][933]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/Minigame.umap
+[2017.10.12-04.36.29:576][933]LogFileHelpers: Saving map 'Minigame' took 1.297
+[2017.10.12-04.37.10:014][643]BlueprintLog: New page: Compile Laptop_Blueprint
+[2017.10.12-04.37.13:245][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/Laptop_Blueprint" FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset" SILENT=true
+[2017.10.12-04.37.13:683][664]LogSavePackage: Save=181.62ms
+[2017.10.12-04.37.13:683][664]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Laptop_Blueprint4DDBA1664F9130F23D138EAA3575F38B.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset'
+[2017.10.12-04.37.13:743][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset
+[2017.10.12-04.37.21:755][830]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.12-04.37.22:077][830]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.37.22:077][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-04.37.22:077][830]PIE: New page: PIE session: TopDownExampleMap (Oct 11, 2017, 8:37:22 PM)
+[2017.10.12-04.37.22:077][830]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.37.22:193][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115310s)
+[2017.10.12-04.37.22:196][830]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.37.22:196][830]LogPlayLevel: PIE: World Init took: (0.003392s)
+[2017.10.12-04.37.22:197][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.119247s)
+[2017.10.12-04.37.22:263][830]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-04.37.22:487][830]LogInit: FAudioDevice initialized.
+[2017.10.12-04.37.22:523][830]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.37.22:552][830]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.37.22
+[2017.10.12-04.37.22:579][830]LogWorld: Bringing up level for play took: 0.055464
+[2017.10.12-04.37.22:775][830]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.684
+[2017.10.12-04.37.22:775][830]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.37.28:195][953]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.37.28:883][953]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.37.29:140][953]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2017.10.12-04.37.29:140][953]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.37.29:474][953]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.37.29:906][953]LogInit: WinSock: I am myshit (10.181.119.92:0)
+[2017.10.12-04.37.30:981][953]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.37.31:643][953]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.37.32:231][953]LogNet: Host name resolution failed with 49
+[2017.10.12-04.37.32:393][954]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.37.32:413][954]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.37.32:457][954]LogNet: DestroyNamedNetDriver IpNetDriver_0 [PendingNetDriver]
+[2017.10.12-04.37.32:482][954]LogExit: PendingNetDriver IpNetDriver_0 shut down
+[2017.10.12-04.37.32:524][955]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.32:524][955]LogNet: Failed; returning to Entry
+[2017.10.12-04.37.33:052][955]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.33:139][955]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.37.33:329][955]Cmd: MEM
+[2017.10.12-04.37.34:345][955]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.37.34:345][955]LogMemory: Process Physical Memory: 712.21 MB used, 1614.84 MB peak
+[2017.10.12-04.37.34:345][955]LogMemory: Process Virtual Memory: 2428.26 MB used, 2510.54 MB peak
+[2017.10.12-04.37.34:345][955]LogMemory: Physical Memory: 6912.29 MB used,  1190.40 MB free, 8102.68 MB total
+[2017.10.12-04.37.34:345][955]LogMemory: Virtual Memory: 3399.06 MB used,  1190.40 MB free, 134217728.00 MB total
+[2017.10.12-04.37.34:345][955]LogMemory: 
+[2017.10.12-04.37.34:345][955]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.37.34:385][955]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.37.34:432][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047233s)
+[2017.10.12-04.37.34:434][955]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.37.34:435][955]LogPlayLevel: PIE: World Init took: (0.002079s)
+[2017.10.12-04.37.34:435][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.050276s)
+[2017.10.12-04.37.34:435][955]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.37.34:445][955]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.37.34
+[2017.10.12-04.37.34:445][955]LogWorld: Bringing up level for play took: 0.008797
+[2017.10.12-04.37.34:470][955]LogLoad: Took 1.418035 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.37.38:570][ 76]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.37.38:571][ 76]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.37.38:571][ 76]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2017.10.12-04.37.38:571][ 76]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.37.38:571][ 76]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.37.38:573][ 76]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.37.38:573][ 76]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.37.39:608][108]LogNet: Host name resolution failed with 49
+[2017.10.12-04.37.39:639][109]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.37.39:639][109]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.37.39:639][109]LogNet: DestroyNamedNetDriver IpNetDriver_1 [PendingNetDriver]
+[2017.10.12-04.37.39:639][109]LogExit: PendingNetDriver IpNetDriver_1 shut down
+[2017.10.12-04.37.39:673][110]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.39:673][110]LogNet: Failed; returning to Entry
+[2017.10.12-04.37.39:701][110]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.39:746][110]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.37.39:754][110]Cmd: MEM
+[2017.10.12-04.37.39:792][110]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.37.39:792][110]LogMemory: Process Physical Memory: 819.40 MB used, 1614.84 MB peak
+[2017.10.12-04.37.39:792][110]LogMemory: Process Virtual Memory: 2496.63 MB used, 2544.95 MB peak
+[2017.10.12-04.37.39:792][110]LogMemory: Physical Memory: 6963.40 MB used,  1139.28 MB free, 8102.68 MB total
+[2017.10.12-04.37.39:792][110]LogMemory: Virtual Memory: 3415.06 MB used,  1139.28 MB free, 134217728.00 MB total
+[2017.10.12-04.37.39:792][110]LogMemory: 
+[2017.10.12-04.37.39:792][110]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.37.39:792][110]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.37.39:831][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039062s)
+[2017.10.12-04.37.39:832][110]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.37.39:833][110]LogPlayLevel: PIE: World Init took: (0.001486s)
+[2017.10.12-04.37.39:833][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.041442s)
+[2017.10.12-04.37.39:833][110]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.37.39:965][110]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.37.39
+[2017.10.12-04.37.39:965][110]LogWorld: Bringing up level for play took: 0.131258
+[2017.10.12-04.37.39:970][110]LogLoad: Took 0.268470 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.37.42:231][175]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.37.42:231][175]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.37.42:232][175]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2017.10.12-04.37.42:232][175]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.37.42:232][175]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.37.42:234][175]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.37.42:234][175]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.37.43:245][207]LogNet: Host name resolution failed with 49
+[2017.10.12-04.37.43:279][208]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.37.43:279][208]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.37.43:279][208]LogNet: DestroyNamedNetDriver IpNetDriver_2 [PendingNetDriver]
+[2017.10.12-04.37.43:279][208]LogExit: PendingNetDriver IpNetDriver_2 shut down
+[2017.10.12-04.37.43:308][209]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.43:308][209]LogNet: Failed; returning to Entry
+[2017.10.12-04.37.43:341][209]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.43:385][209]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.37.43:390][209]Cmd: MEM
+[2017.10.12-04.37.43:423][209]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.37.43:423][209]LogMemory: Process Physical Memory: 848.80 MB used, 1614.84 MB peak
+[2017.10.12-04.37.43:423][209]LogMemory: Process Virtual Memory: 2381.11 MB used, 2544.95 MB peak
+[2017.10.12-04.37.43:423][209]LogMemory: Physical Memory: 6945.35 MB used,  1157.34 MB free, 8102.68 MB total
+[2017.10.12-04.37.43:423][209]LogMemory: Virtual Memory: 3402.88 MB used,  1157.34 MB free, 134217728.00 MB total
+[2017.10.12-04.37.43:423][209]LogMemory: 
+[2017.10.12-04.37.43:423][209]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.37.43:423][209]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.37.43:461][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037409s)
+[2017.10.12-04.37.43:462][209]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.37.43:463][209]LogPlayLevel: PIE: World Init took: (0.001760s)
+[2017.10.12-04.37.43:463][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039725s)
+[2017.10.12-04.37.43:463][209]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.37.43:476][209]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.37.43
+[2017.10.12-04.37.43:478][209]LogWorld: Bringing up level for play took: 0.013256
+[2017.10.12-04.37.43:481][209]LogLoad: Took 0.140269 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.37.45:948][283]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.37.45:949][283]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.37.45:949][283]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2017.10.12-04.37.45:949][283]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.37.45:949][283]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.37.45:951][283]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.37.45:952][283]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.37.46:964][315]LogNet: Host name resolution failed with 49
+[2017.10.12-04.37.46:992][316]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.37.46:993][316]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.37.46:993][316]LogNet: DestroyNamedNetDriver IpNetDriver_3 [PendingNetDriver]
+[2017.10.12-04.37.46:993][316]LogExit: PendingNetDriver IpNetDriver_3 shut down
+[2017.10.12-04.37.47:025][317]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.47:025][317]LogNet: Failed; returning to Entry
+[2017.10.12-04.37.47:053][317]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.47:092][317]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_3, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.37.47:100][317]Cmd: MEM
+[2017.10.12-04.37.47:135][317]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.37.47:135][317]LogMemory: Process Physical Memory: 856.81 MB used, 1614.84 MB peak
+[2017.10.12-04.37.47:135][317]LogMemory: Process Virtual Memory: 2382.98 MB used, 2544.95 MB peak
+[2017.10.12-04.37.47:135][317]LogMemory: Physical Memory: 6959.19 MB used,  1143.50 MB free, 8102.68 MB total
+[2017.10.12-04.37.47:135][317]LogMemory: Virtual Memory: 3402.88 MB used,  1143.50 MB free, 134217728.00 MB total
+[2017.10.12-04.37.47:135][317]LogMemory: 
+[2017.10.12-04.37.47:135][317]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.37.47:135][317]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.37.47:172][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036563s)
+[2017.10.12-04.37.47:174][317]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.37.47:174][317]LogPlayLevel: PIE: World Init took: (0.001929s)
+[2017.10.12-04.37.47:174][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039068s)
+[2017.10.12-04.37.47:175][317]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.37.47:184][317]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.37.47
+[2017.10.12-04.37.47:185][317]LogWorld: Bringing up level for play took: 0.009779
+[2017.10.12-04.37.47:188][317]LogLoad: Took 0.135772 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.37.50:049][404]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.37.50:050][404]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.37.50:050][404]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2017.10.12-04.37.50:050][404]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.37.50:050][404]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.37.50:052][404]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.37.50:052][404]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.37.50:304][412]LogBlueprintUserMessages: [TopDownExampleMap_C_0] trigger works
+[2017.10.12-04.37.50:526][419]LogBlueprintUserMessages: [TopDownExampleMap_C_0] trigger works
+[2017.10.12-04.37.51:053][436]LogNet: Host name resolution failed with 49
+[2017.10.12-04.37.51:087][437]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.37.51:087][437]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.37.51:087][437]LogNet: DestroyNamedNetDriver IpNetDriver_4 [PendingNetDriver]
+[2017.10.12-04.37.51:088][437]LogExit: PendingNetDriver IpNetDriver_4 shut down
+[2017.10.12-04.37.51:116][438]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.51:116][438]LogNet: Failed; returning to Entry
+[2017.10.12-04.37.51:147][438]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.51:187][438]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.37.51:194][438]Cmd: MEM
+[2017.10.12-04.37.51:228][438]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.37.51:228][438]LogMemory: Process Physical Memory: 854.03 MB used, 1614.84 MB peak
+[2017.10.12-04.37.51:228][438]LogMemory: Process Virtual Memory: 2382.03 MB used, 2544.95 MB peak
+[2017.10.12-04.37.51:228][438]LogMemory: Physical Memory: 6957.68 MB used,  1145.00 MB free, 8102.68 MB total
+[2017.10.12-04.37.51:228][438]LogMemory: Virtual Memory: 3418.88 MB used,  1145.00 MB free, 134217728.00 MB total
+[2017.10.12-04.37.51:228][438]LogMemory: 
+[2017.10.12-04.37.51:228][438]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.37.51:228][438]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.37.51:264][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035883s)
+[2017.10.12-04.37.51:266][438]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.37.51:267][438]LogPlayLevel: PIE: World Init took: (0.002670s)
+[2017.10.12-04.37.51:267][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039006s)
+[2017.10.12-04.37.51:267][438]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.37.51:279][438]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.37.51
+[2017.10.12-04.37.51:280][438]LogWorld: Bringing up level for play took: 0.012398
+[2017.10.12-04.37.51:286][438]LogLoad: Took 0.138473 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.37.53:934][518]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.37.53:934][518]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.37.53:934][518]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2017.10.12-04.37.53:934][518]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.37.53:935][518]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.37.53:937][518]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.37.53:937][518]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.37.54:380][531]LogBlueprintUserMessages: [TopDownExampleMap_C_0] trigger works
+[2017.10.12-04.37.54:559][537]LogBlueprintUserMessages: [TopDownExampleMap_C_0] trigger works
+[2017.10.12-04.37.54:965][550]LogNet: Host name resolution failed with 49
+[2017.10.12-04.37.54:996][551]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.37.54:996][551]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.37.54:996][551]LogNet: DestroyNamedNetDriver IpNetDriver_5 [PendingNetDriver]
+[2017.10.12-04.37.54:996][551]LogExit: PendingNetDriver IpNetDriver_5 shut down
+[2017.10.12-04.37.55:031][552]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.55:031][552]LogNet: Failed; returning to Entry
+[2017.10.12-04.37.55:059][552]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.55:100][552]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.37.55:108][552]Cmd: MEM
+[2017.10.12-04.37.55:141][552]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.37.55:141][552]LogMemory: Process Physical Memory: 857.78 MB used, 1614.84 MB peak
+[2017.10.12-04.37.55:141][552]LogMemory: Process Virtual Memory: 2391.18 MB used, 2544.95 MB peak
+[2017.10.12-04.37.55:141][552]LogMemory: Physical Memory: 6962.99 MB used,  1139.70 MB free, 8102.68 MB total
+[2017.10.12-04.37.55:141][552]LogMemory: Virtual Memory: 3418.88 MB used,  1139.70 MB free, 134217728.00 MB total
+[2017.10.12-04.37.55:141][552]LogMemory: 
+[2017.10.12-04.37.55:141][552]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.37.55:141][552]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.37.55:178][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037132s)
+[2017.10.12-04.37.55:180][552]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.37.55:180][552]LogPlayLevel: PIE: World Init took: (0.001606s)
+[2017.10.12-04.37.55:180][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039233s)
+[2017.10.12-04.37.55:181][552]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.37.55:191][552]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.37.55
+[2017.10.12-04.37.55:192][552]LogWorld: Bringing up level for play took: 0.009949
+[2017.10.12-04.37.55:196][552]LogLoad: Took 0.136952 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.37.57:081][608]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.37.57:082][608]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.37.57:082][608]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2017.10.12-04.37.57:082][608]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.37.57:082][608]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.37.57:084][608]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.37.57:085][608]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.37.58:101][640]LogNet: Host name resolution failed with 49
+[2017.10.12-04.37.58:134][641]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.37.58:134][641]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.37.58:134][641]LogNet: DestroyNamedNetDriver IpNetDriver_6 [PendingNetDriver]
+[2017.10.12-04.37.58:135][641]LogExit: PendingNetDriver IpNetDriver_6 shut down
+[2017.10.12-04.37.58:164][642]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.58:164][642]LogNet: Failed; returning to Entry
+[2017.10.12-04.37.58:197][642]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.37.58:241][642]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_6, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.37.58:246][642]Cmd: MEM
+[2017.10.12-04.37.58:280][642]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.37.58:280][642]LogMemory: Process Physical Memory: 851.32 MB used, 1614.84 MB peak
+[2017.10.12-04.37.58:280][642]LogMemory: Process Virtual Memory: 2388.62 MB used, 2544.95 MB peak
+[2017.10.12-04.37.58:280][642]LogMemory: Physical Memory: 6957.77 MB used,  1144.91 MB free, 8102.68 MB total
+[2017.10.12-04.37.58:280][642]LogMemory: Virtual Memory: 3418.88 MB used,  1144.91 MB free, 134217728.00 MB total
+[2017.10.12-04.37.58:280][642]LogMemory: 
+[2017.10.12-04.37.58:280][642]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.37.58:280][642]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.37.58:319][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038524s)
+[2017.10.12-04.37.58:320][642]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.37.58:321][642]LogPlayLevel: PIE: World Init took: (0.001634s)
+[2017.10.12-04.37.58:321][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.040653s)
+[2017.10.12-04.37.58:321][642]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.37.58:334][642]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.37.58
+[2017.10.12-04.37.58:335][642]LogWorld: Bringing up level for play took: 0.013097
+[2017.10.12-04.37.58:337][642]LogLoad: Took 0.140040 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.38.00:910][720]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.38.00:910][720]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.38.00:910][720]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2017.10.12-04.38.00:910][720]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.38.00:910][720]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.38.00:912][720]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.38.00:912][720]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.38.01:919][752]LogNet: Host name resolution failed with 49
+[2017.10.12-04.38.01:952][753]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.38.01:953][753]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.38.01:953][753]LogNet: DestroyNamedNetDriver IpNetDriver_7 [PendingNetDriver]
+[2017.10.12-04.38.01:953][753]LogExit: PendingNetDriver IpNetDriver_7 shut down
+[2017.10.12-04.38.01:981][754]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.01:981][754]LogNet: Failed; returning to Entry
+[2017.10.12-04.38.02:013][754]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.02:054][754]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_7, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.38.02:060][754]Cmd: MEM
+[2017.10.12-04.38.02:092][754]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.38.02:092][754]LogMemory: Process Physical Memory: 862.87 MB used, 1614.84 MB peak
+[2017.10.12-04.38.02:092][754]LogMemory: Process Virtual Memory: 2388.10 MB used, 2544.95 MB peak
+[2017.10.12-04.38.02:092][754]LogMemory: Physical Memory: 6977.71 MB used,  1124.98 MB free, 8102.68 MB total
+[2017.10.12-04.38.02:092][754]LogMemory: Virtual Memory: 3418.88 MB used,  1124.98 MB free, 134217728.00 MB total
+[2017.10.12-04.38.02:092][754]LogMemory: 
+[2017.10.12-04.38.02:092][754]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.38.02:092][754]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.38.02:131][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037855s)
+[2017.10.12-04.38.02:133][754]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.38.02:134][754]LogPlayLevel: PIE: World Init took: (0.002935s)
+[2017.10.12-04.38.02:134][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.041453s)
+[2017.10.12-04.38.02:134][754]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.38.02:142][754]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.38.02
+[2017.10.12-04.38.02:143][754]LogWorld: Bringing up level for play took: 0.008526
+[2017.10.12-04.38.02:148][754]LogLoad: Took 0.133846 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.38.03:833][804]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.38.03:833][804]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.38.03:833][804]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2017.10.12-04.38.03:833][804]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.38.03:833][804]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.38.03:836][804]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.38.03:836][804]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.38.04:842][836]LogNet: Host name resolution failed with 49
+[2017.10.12-04.38.04:878][837]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.38.04:878][837]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.38.04:878][837]LogNet: DestroyNamedNetDriver IpNetDriver_8 [PendingNetDriver]
+[2017.10.12-04.38.04:878][837]LogExit: PendingNetDriver IpNetDriver_8 shut down
+[2017.10.12-04.38.04:907][838]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.04:907][838]LogNet: Failed; returning to Entry
+[2017.10.12-04.38.04:939][838]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.04:979][838]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_8, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.38.04:986][838]Cmd: MEM
+[2017.10.12-04.38.05:018][838]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.38.05:018][838]LogMemory: Process Physical Memory: 877.81 MB used, 1614.84 MB peak
+[2017.10.12-04.38.05:018][838]LogMemory: Process Virtual Memory: 2403.95 MB used, 2544.95 MB peak
+[2017.10.12-04.38.05:018][838]LogMemory: Physical Memory: 6992.88 MB used,  1109.80 MB free, 8102.68 MB total
+[2017.10.12-04.38.05:018][838]LogMemory: Virtual Memory: 3418.88 MB used,  1109.80 MB free, 134217728.00 MB total
+[2017.10.12-04.38.05:018][838]LogMemory: 
+[2017.10.12-04.38.05:019][838]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.38.05:019][838]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.38.05:055][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036156s)
+[2017.10.12-04.38.05:056][838]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.38.05:057][838]LogPlayLevel: PIE: World Init took: (0.001724s)
+[2017.10.12-04.38.05:057][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.038404s)
+[2017.10.12-04.38.05:057][838]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.38.05:072][838]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.38.05
+[2017.10.12-04.38.05:073][838]LogWorld: Bringing up level for play took: 0.014939
+[2017.10.12-04.38.05:076][838]LogLoad: Took 0.137288 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.38.07:458][910]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.38.07:458][910]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.38.07:458][910]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2017.10.12-04.38.07:458][910]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.38.07:459][910]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.38.07:460][910]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.38.07:460][910]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.38.08:315][937]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.08:468][942]LogNet: Host name resolution failed with 49
+[2017.10.12-04.38.08:501][943]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.38.08:501][943]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.38.08:502][943]LogNet: DestroyNamedNetDriver IpNetDriver_9 [PendingNetDriver]
+[2017.10.12-04.38.08:502][943]LogExit: PendingNetDriver IpNetDriver_9 shut down
+[2017.10.12-04.38.08:530][944]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.08:530][944]LogNet: Failed; returning to Entry
+[2017.10.12-04.38.08:563][944]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.08:603][944]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_9, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.38.08:609][944]Cmd: MEM
+[2017.10.12-04.38.08:642][944]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.38.08:642][944]LogMemory: Process Physical Memory: 875.11 MB used, 1614.84 MB peak
+[2017.10.12-04.38.08:642][944]LogMemory: Process Virtual Memory: 2399.20 MB used, 2544.95 MB peak
+[2017.10.12-04.38.08:642][944]LogMemory: Physical Memory: 6991.59 MB used,  1111.09 MB free, 8102.68 MB total
+[2017.10.12-04.38.08:642][944]LogMemory: Virtual Memory: 3434.88 MB used,  1111.09 MB free, 134217728.00 MB total
+[2017.10.12-04.38.08:642][944]LogMemory: 
+[2017.10.12-04.38.08:642][944]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.38.08:642][944]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.38.08:678][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035747s)
+[2017.10.12-04.38.08:680][944]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.38.08:680][944]LogPlayLevel: PIE: World Init took: (0.001708s)
+[2017.10.12-04.38.08:681][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.038489s)
+[2017.10.12-04.38.08:681][944]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.38.08:688][944]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.38.08
+[2017.10.12-04.38.08:689][944]LogWorld: Bringing up level for play took: 0.007000
+[2017.10.12-04.38.08:691][944]LogLoad: Took 0.128395 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.38.10:817][  7]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.38.10:817][  7]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.38.10:817][  7]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2017.10.12-04.38.10:817][  7]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.38.10:818][  7]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.38.10:820][  7]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.38.10:820][  7]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.38.11:105][ 16]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.11:327][ 23]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.11:580][ 31]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.11:832][ 39]LogNet: Host name resolution failed with 49
+[2017.10.12-04.38.11:860][ 40]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.38.11:860][ 40]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.38.11:860][ 40]LogNet: DestroyNamedNetDriver IpNetDriver_10 [PendingNetDriver]
+[2017.10.12-04.38.11:860][ 40]LogExit: PendingNetDriver IpNetDriver_10 shut down
+[2017.10.12-04.38.11:894][ 41]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.11:894][ 41]LogNet: Failed; returning to Entry
+[2017.10.12-04.38.11:922][ 41]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.11:961][ 41]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_10, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.38.11:969][ 41]Cmd: MEM
+[2017.10.12-04.38.12:008][ 41]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.38.12:008][ 41]LogMemory: Process Physical Memory: 861.68 MB used, 1614.84 MB peak
+[2017.10.12-04.38.12:008][ 41]LogMemory: Process Virtual Memory: 2390.60 MB used, 2544.95 MB peak
+[2017.10.12-04.38.12:009][ 41]LogMemory: Physical Memory: 6959.07 MB used,  1143.62 MB free, 8102.68 MB total
+[2017.10.12-04.38.12:009][ 41]LogMemory: Virtual Memory: 3434.88 MB used,  1143.62 MB free, 134217728.00 MB total
+[2017.10.12-04.38.12:009][ 41]LogMemory: 
+[2017.10.12-04.38.12:009][ 41]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.38.12:009][ 41]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.38.12:046][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037220s)
+[2017.10.12-04.38.12:048][ 41]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.38.12:049][ 41]LogPlayLevel: PIE: World Init took: (0.002473s)
+[2017.10.12-04.38.12:049][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.040264s)
+[2017.10.12-04.38.12:049][ 41]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.38.12:059][ 41]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.38.12
+[2017.10.12-04.38.12:060][ 41]LogWorld: Bringing up level for play took: 0.009900
+[2017.10.12-04.38.12:063][ 41]LogLoad: Took 0.141385 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.38.13:615][ 86]LogNet: Browse: Minigame.umsp//Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.38.13:616][ 86]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.12-04.38.13:616][ 86]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2017.10.12-04.38.13:616][ 86]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.12-04.38.13:616][ 86]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.12-04.38.13:618][ 86]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.12-04.38.13:618][ 86]LogNet: Game client on port 7777, rate 10000
+[2017.10.12-04.38.13:949][ 96]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.14:146][102]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.14:648][118]LogNet: Host name resolution failed with 49
+[2017.10.12-04.38.14:677][119]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: Your connection to the host has been lost.
+[2017.10.12-04.38.14:677][119]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'Your connection to the host has been lost.'
+[2017.10.12-04.38.14:677][119]LogNet: DestroyNamedNetDriver IpNetDriver_11 [PendingNetDriver]
+[2017.10.12-04.38.14:677][119]LogExit: PendingNetDriver IpNetDriver_11 shut down
+[2017.10.12-04.38.14:712][120]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.14:712][120]LogNet: Failed; returning to Entry
+[2017.10.12-04.38.14:740][120]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?closed
+[2017.10.12-04.38.14:783][120]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 0.0.0.0:7777, Name: IpConnection_11, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.12-04.38.14:790][120]Cmd: MEM
+[2017.10.12-04.38.14:821][120]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.38.14:821][120]LogMemory: Process Physical Memory: 869.68 MB used, 1614.84 MB peak
+[2017.10.12-04.38.14:821][120]LogMemory: Process Virtual Memory: 2402.10 MB used, 2544.95 MB peak
+[2017.10.12-04.38.14:821][120]LogMemory: Physical Memory: 6819.05 MB used,  1283.63 MB free, 8102.68 MB total
+[2017.10.12-04.38.14:821][120]LogMemory: Virtual Memory: 3434.88 MB used,  1283.63 MB free, 134217728.00 MB total
+[2017.10.12-04.38.14:821][120]LogMemory: 
+[2017.10.12-04.38.14:821][120]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.38.14:821][120]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.38.14:857][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035742s)
+[2017.10.12-04.38.14:858][120]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.38.14:858][120]LogPlayLevel: PIE: World Init took: (0.001548s)
+[2017.10.12-04.38.14:859][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.037804s)
+[2017.10.12-04.38.14:859][120]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.38.14:874][120]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.38.14
+[2017.10.12-04.38.14:875][120]LogWorld: Bringing up level for play took: 0.015623
+[2017.10.12-04.38.14:877][120]LogLoad: Took 0.137413 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap)
+[2017.10.12-04.38.15:660][142]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.16:699][175]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.16:888][181]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.17:079][187]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.17:268][193]LogBlueprintUserMessages: [Function-BP_92] Hey Asa
+[2017.10.12-04.38.25:197][446]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.38.25:299][446]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.38.40:766][776]BlueprintLog: New page: Compile Laptop_Blueprint
+[2017.10.12-04.38.42:538][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/Laptop_Blueprint" FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset" SILENT=true
+[2017.10.12-04.38.42:710][796]LogSavePackage: Save=148.63ms
+[2017.10.12-04.38.42:710][796]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Laptop_BlueprintC11F126A4470B662F03EFA9DE0341B8C.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset'
+[2017.10.12-04.38.42:759][796]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset
+[2017.10.12-04.38.45:573][856]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.12-04.38.45:740][856]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.38.45:740][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-04.38.45:741][856]PIE: New page: PIE session: TopDownExampleMap (Oct 11, 2017, 8:38:45 PM)
+[2017.10.12-04.38.45:741][856]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.38.45:787][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046180s)
+[2017.10.12-04.38.45:790][856]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.38.45:790][856]LogPlayLevel: PIE: World Init took: (0.003176s)
+[2017.10.12-04.38.45:791][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.049999s)
+[2017.10.12-04.38.45:831][856]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-04.38.45:873][856]LogInit: FAudioDevice initialized.
+[2017.10.12-04.38.45:911][856]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.38.45:918][856]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.38.45
+[2017.10.12-04.38.45:919][856]LogWorld: Bringing up level for play took: 0.007345
+[2017.10.12-04.38.45:924][856]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.833
+[2017.10.12-04.38.45:925][856]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.38.52:676][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.38.52:764][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.38.56:679][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/Laptop_Blueprint" FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset" SILENT=true
+[2017.10.12-04.38.56:821][109]LogSavePackage: Save=119.68ms
+[2017.10.12-04.38.56:821][109]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Laptop_BlueprintE81A485E476E92A611F0EE91E182979E.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset'
+[2017.10.12-04.38.56:860][109]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset
+[2017.10.12-04.39.00:045][184]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.12-04.39.00:118][184]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.39.00:118][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-04.39.00:119][184]PIE: New page: PIE session: TopDownExampleMap (Oct 11, 2017, 8:39:00 PM)
+[2017.10.12-04.39.00:119][184]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.39.00:164][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045089s)
+[2017.10.12-04.39.00:165][184]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.39.00:165][184]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2017.10.12-04.39.00:166][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.046910s)
+[2017.10.12-04.39.00:208][184]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-04.39.00:234][184]LogInit: FAudioDevice initialized.
+[2017.10.12-04.39.00:266][184]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.39.00:271][184]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.39.00
+[2017.10.12-04.39.00:272][184]LogWorld: Bringing up level for play took: 0.005330
+[2017.10.12-04.39.00:275][184]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.815
+[2017.10.12-04.39.00:276][184]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.39.04:700][320]LogLongPackageNames: Warning: URL: Minigame.umap: Name may not contain the following characters: '.'
+[2017.10.12-04.39.04:714][321]LogLongPackageNames: Warning: URL: Minigame.umap: Name may not contain the following characters: '.'
+[2017.10.12-04.39.04:714][321]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.39.04:714][321]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.39.04:715][321]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.39.04:727][321]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.39.04:727][321]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.39.04:727][321]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.39.04:727][321]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.39.04:730][321]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.39.04:773][321]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.40.54:808][851]LogMetaData: Removing '/Game/TopDownBP/Minigame.Minigame_C' ref from Metadata '/Game/Minigame.PackageMetaData'
+[2017.10.12-04.40.54:808][851]LogMetaData: Removing '/Game/TopDownBP/Minigame.SKEL_Minigame_C' ref from Metadata '/Game/Minigame.PackageMetaData'
+[2017.10.12-04.40.55:132][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Minigame" FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Minigame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.12-04.40.55:356][851]LogSavePackage: Save=169.23ms
+[2017.10.12-04.40.55:356][851]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/MinigameFFCA004D488CA6615BB2F99F0C29F6C4.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Minigame.umap'
+[2017.10.12-04.40.55:368][851]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Minigame.umap
+[2017.10.12-04.40.55:371][851]LogFileHelpers: Saving map 'Minigame' took 0.539
+[2017.10.12-04.41.01:286][974]LogMetaData: Removing '/Game/TopDownBP/Maps/Minigame.Minigame_C' ref from Metadata '/Game/TopDownBP/Minigame.PackageMetaData'
+[2017.10.12-04.41.01:286][974]LogMetaData: Removing '/Game/TopDownBP/Maps/Minigame.SKEL_Minigame_C' ref from Metadata '/Game/TopDownBP/Minigame.PackageMetaData'
+[2017.10.12-04.41.01:506][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/Minigame" FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Minigame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.12-04.41.01:928][974]LogSavePackage: Save=377.48ms
+[2017.10.12-04.41.01:928][974]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Minigame6613A22D499BB57A9F0B8285C1E3CF61.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Minigame.umap'
+[2017.10.12-04.41.01:941][974]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Minigame.umap
+[2017.10.12-04.41.01:945][974]LogFileHelpers: Saving map 'Minigame' took 0.637
+[2017.10.12-04.41.04:367][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.12-04.41.04:454][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.41.04:455][ 29]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.12-04.41.04:460][ 29]LogPlayLevel: [PlayLevel] Compiling TopDownExampleMap before play...
+[2017.10.12-04.41.04:508][ 29]LogPlayLevel: PlayLevel: Blueprint regeneration took 53 ms (1 blueprints)
+[2017.10.12-04.41.04:508][ 29]PIE: New page: PIE session: TopDownExampleMap (Oct 11, 2017, 8:41:04 PM)
+[2017.10.12-04.41.04:508][ 29]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.41.04:546][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038295s)
+[2017.10.12-04.41.04:548][ 29]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.41.04:548][ 29]LogPlayLevel: PIE: World Init took: (0.001655s)
+[2017.10.12-04.41.04:548][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.040452s)
+[2017.10.12-04.41.04:581][ 29]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-04.41.04:606][ 29]LogInit: FAudioDevice initialized.
+[2017.10.12-04.41.04:641][ 29]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.41.04:646][ 29]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.41.04
+[2017.10.12-04.41.04:647][ 29]LogWorld: Bringing up level for play took: 0.005205
+[2017.10.12-04.41.04:650][ 29]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.441
+[2017.10.12-04.41.04:651][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.41.08:194][138]LogLongPackageNames: Warning: URL: Minigame.umap: Name may not contain the following characters: '.'
+[2017.10.12-04.41.08:222][139]LogLongPackageNames: Warning: URL: Minigame.umap: Name may not contain the following characters: '.'
+[2017.10.12-04.41.08:222][139]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.41.08:222][139]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.41.08:222][139]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.41.08:223][139]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.41.08:223][139]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.41.08:223][139]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.41.08:223][139]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.41.08:225][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.41.08:295][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.43.15:899][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/Minigame" FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Minigame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.12-04.43.16:157][  1]LogSavePackage: Save=146.96ms
+[2017.10.12-04.43.16:157][  1]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Minigame7828C16B43AF8AE74859B0914BA521F8.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Minigame.umap'
+[2017.10.12-04.43.16:183][  1]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Minigame.umap
+[2017.10.12-04.43.20:050][ 73]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.12-04.43.20:094][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.43.20:094][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame' with GeneratedClass '/Game/TopDownBP/Maps/Minigame.Minigame_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame'
+[2017.10.12-04.43.20:094][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-04.43.20:095][ 73]PIE: New page: PIE session: TopDownExampleMap (Oct 11, 2017, 8:43:20 PM)
+[2017.10.12-04.43.20:095][ 73]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.43.20:173][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078176s)
+[2017.10.12-04.43.20:176][ 73]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.43.20:176][ 73]LogPlayLevel: PIE: World Init took: (0.002747s)
+[2017.10.12-04.43.20:177][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.081643s)
+[2017.10.12-04.43.20:211][ 73]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-04.43.20:240][ 73]LogInit: FAudioDevice initialized.
+[2017.10.12-04.43.20:272][ 73]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.43.20:278][ 73]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.43.20
+[2017.10.12-04.43.20:278][ 73]LogWorld: Bringing up level for play took: 0.005834
+[2017.10.12-04.43.20:281][ 73]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.809
+[2017.10.12-04.43.20:282][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.43.20:282][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame' with GeneratedClass '/Game/TopDownBP/Maps/Minigame.Minigame_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame'
+[2017.10.12-04.43.22:982][152]LogLongPackageNames: Warning: URL: Minigame.umap: Name may not contain the following characters: '.'
+[2017.10.12-04.43.23:010][153]LogLongPackageNames: Warning: URL: Minigame.umap: Name may not contain the following characters: '.'
+[2017.10.12-04.43.23:010][153]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.43.23:010][153]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.43.23:010][153]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.43.23:010][153]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.43.23:010][153]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.10.12-04.43.23:010][153]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.43.23:011][153]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/TopDownBP/Maps/TopDownExampleMap'. Shutting down PIE.
+[2017.10.12-04.43.23:013][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.43.23:013][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame' with GeneratedClass '/Game/TopDownBP/Maps/Minigame.Minigame_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame'
+[2017.10.12-04.43.23:083][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.43.23:083][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame' with GeneratedClass '/Game/TopDownBP/Maps/Minigame.Minigame_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame'
+[2017.10.12-04.43.58:304][791]LogLongPackageNames: Warning: URL: Minigame.umap: Name may not contain the following characters: '.'
+[2017.10.12-04.43.58:305][791]LogLongPackageNames: Warning: URL: Minigame.umap: Name may not contain the following characters: '.'
+[2017.10.12-04.44.05:843][917]BlueprintLog: New page: Compile Laptop_Blueprint
+[2017.10.12-04.44.07:172][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/Laptop_Blueprint" FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset" SILENT=true
+[2017.10.12-04.44.07:267][928]LogSavePackage: Save=67.49ms
+[2017.10.12-04.44.07:267][928]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Laptop_Blueprint48E488C0450E55CD6C6FEA81C284E5EC.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset'
+[2017.10.12-04.44.07:290][928]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/TopDownBP/Maps/Laptop_Blueprint.uasset
+[2017.10.12-04.44.15:385][ 70]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.12-04.44.15:436][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.44.15:437][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame' with GeneratedClass '/Game/TopDownBP/Maps/Minigame.Minigame_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame'
+[2017.10.12-04.44.15:437][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-04.44.15:437][ 70]PIE: New page: PIE session: TopDownExampleMap (Oct 11, 2017, 8:44:15 PM)
+[2017.10.12-04.44.15:437][ 70]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.10.12-04.44.15:497][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059757s)
+[2017.10.12-04.44.15:499][ 70]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.12-04.44.15:499][ 70]LogPlayLevel: PIE: World Init took: (0.001964s)
+[2017.10.12-04.44.15:500][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.062520s)
+[2017.10.12-04.44.15:536][ 70]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-04.44.15:561][ 70]LogInit: FAudioDevice initialized.
+[2017.10.12-04.44.15:599][ 70]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.10.12-04.44.15:606][ 70]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.10.12-00.44.15
+[2017.10.12-04.44.15:607][ 70]LogWorld: Bringing up level for play took: 0.006560
+[2017.10.12-04.44.15:610][ 70]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.519
+[2017.10.12-04.44.15:611][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.44.15:611][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame' with GeneratedClass '/Game/TopDownBP/Maps/Minigame.Minigame_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame'
+[2017.10.12-04.44.18:345][150]LogNet: Browse: /Game/TopDownBP/Maps/Minigame
+[2017.10.12-04.44.18:372][150]LogLoad: LoadMap: /Game/TopDownBP/Maps/Minigame
+[2017.10.12-04.44.18:428][150]Cmd: MEM
+[2017.10.12-04.44.18:461][150]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-04.44.18:461][150]LogMemory: Process Physical Memory: 1082.95 MB used, 1614.84 MB peak
+[2017.10.12-04.44.18:461][150]LogMemory: Process Virtual Memory: 2567.86 MB used, 2615.86 MB peak
+[2017.10.12-04.44.18:461][150]LogMemory: Physical Memory: 7224.82 MB used,  877.86 MB free, 8102.68 MB total
+[2017.10.12-04.44.18:461][150]LogMemory: Virtual Memory: 3551.46 MB used,  877.86 MB free, 134217728.00 MB total
+[2017.10.12-04.44.18:461][150]LogMemory: 
+[2017.10.12-04.44.18:461][150]Allocator Stats for TBB: (not implemented)
+[2017.10.12-04.44.18:461][150]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_Minigame
+[2017.10.12-04.44.18:486][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025222s)
+[2017.10.12-04.44.18:487][150]LogAIModule: Creating AISystem for world Minigame
+[2017.10.12-04.44.18:488][150]LogPlayLevel: PIE: World Init took: (0.001297s)
+[2017.10.12-04.44.18:488][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/Minigame.Minigame to /Game/TopDownBP/Maps/UEDPIE_0_Minigame.Minigame (0.027084s)
+[2017.10.12-04.44.18:488][150]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.10.12-04.44.18:546][150]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_Minigame.Minigame up for play (max tick rate 0) at 2017.10.12-00.44.18
+[2017.10.12-04.44.18:547][150]LogWorld: Bringing up level for play took: 0.057131
+[2017.10.12-04.44.18:547][150]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.12-04.44.18:915][150]LogLoad: Took 0.543635 seconds to LoadMap(/Game/TopDownBP/Maps/UEDPIE_0_Minigame)
+[2017.10.12-04.44.27:302][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.44.27:302][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame' with GeneratedClass '/Game/TopDownBP/Maps/Minigame.Minigame_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame'
+[2017.10.12-04.44.27:432][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.12-04.44.27:432][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame' with GeneratedClass '/Game/TopDownBP/Maps/Minigame.Minigame_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/Minigame.Minigame:PersistentLevel.Minigame'
+[2017.10.12-04.44.37:912][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Minigame" FILE="../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/Minigame.umap" SILENT=true
+[2017.10.12-04.44.37:941][409]LogSavePackage: Save=8.17ms
+[2017.10.12-04.44.37:941][409]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Minigame8F4F89EB4BD00C87F1AAA3B4A9923358.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/Minigame.umap'
+[2017.10.12-04.44.37:958][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Content/Minigame.umap
+[2017.10.12-04.44.39:200][409]LogSavePackage: Save=644.91ms
+[2017.10.12-04.44.39:201][409]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/UEDPCTopDownExampleMap4E8AA6B9471964B075F3A5ACB234B2F4.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCTopDownExampleMap.umap'
+[2017.10.12-04.44.39:249][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCTopDownExampleMap.umap
+[2017.10.12-04.44.39:463][409]LogSavePackage: Save=128.91ms
+[2017.10.12-04.44.39:463][409]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/UEDPCMinigameAF1D5C8341C9D04362A661A47AB4AA0E.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCMinigame.umap'
+[2017.10.12-04.44.39:469][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCMinigame.umap
+[2017.10.12-04.44.39:478][409]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.12-04.45.04:690][829]LogTemp: Repeating last play command: Standalone Game
+[2017.10.12-04.45.05:597][829]LogSavePackage: Save=445.01ms
+[2017.10.12-04.45.05:597][829]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/UEDPCTopDownExampleMap9859B2514B3674C45B3CFD98EA02512F.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCTopDownExampleMap.umap'
+[2017.10.12-04.45.05:613][829]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCTopDownExampleMap.umap
+[2017.10.12-04.45.06:218][829]LogSavePackage: Save=209.27ms
+[2017.10.12-04.45.06:218][829]LogSavePackage: Moving '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/UEDPCMinigameC9F3671D4874984EC32A789FB5B96C1F.tmp' to '../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCMinigame.umap'
+[2017.10.12-04.45.06:233][829]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dax/Desktop/New folder/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCMinigame.umap
+[2017.10.12-04.45.06:241][829]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.12-04.46.39:118][213]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.12-04.46.40:259][214]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)

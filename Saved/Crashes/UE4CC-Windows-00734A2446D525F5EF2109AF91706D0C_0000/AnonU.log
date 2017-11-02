@@ -1,0 +1,341 @@
+﻿Log file open, 11/02/17 08:48:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AnonU
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-220936076) SRandInit(-220936075).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.124724
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.02-12.48.12:817][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.02-12.48.12:817][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.02-12.48.12:842][  0]LogInit: Computer: ENVY7
+[2017.11.02-12.48.12:842][  0]LogInit: User: user
+[2017.11.02-12.48.12:842][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.11.02-12.48.12:842][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.11.02-12.48.12:843][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.11.02-12.48.12:843][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.02-12.48.12:843][  0]LogMemory: Process Physical Memory: 277.30 MB used, 277.30 MB peak
+[2017.11.02-12.48.12:843][  0]LogMemory: Process Virtual Memory: 275.70 MB used, 275.70 MB peak
+[2017.11.02-12.48.12:843][  0]LogMemory: Physical Memory: 5406.56 MB used,  6769.84 MB free, 12176.41 MB total
+[2017.11.02-12.48.12:843][  0]LogMemory: Virtual Memory: 666.72 MB used,  6769.84 MB free, 134217728.00 MB total
+[2017.11.02-12.48.13:075][  0]LogInit: Using OS detected language (en-US).
+[2017.11.02-12.48.13:075][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.02-12.48.13:078][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.02-12.48.13:968][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.02-12.48.13:977][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.11.02-12.48.13:977][  0]LogD3D11RHI:       128/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.11.02-12.48.13:979][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.02-12.48.13:979][  0]LogD3D11RHI:       0/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.02-12.48.13:979][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.02-12.48.13:986][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.02-12.48.13:986][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.02-12.48.13:986][  0]LogWindows: EnumDisplayDevices:
+[2017.11.02-12.48.13:986][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.11.02-12.48.13:986][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:1)
+[2017.11.02-12.48.13:987][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.11.02-12.48.13:987][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.11.02-12.48.13:987][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2017.11.02-12.48.13:987][  0]LogD3D11RHI:   Driver Version: 21.20.16.4542 (internal:21.20.16.4542, unified:21.20.16.4542)
+[2017.11.02-12.48.13:987][  0]LogD3D11RHI:      Driver Date: 10-24-2016
+[2017.11.02-12.48.13:987][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.02-12.48.13:993][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.02-12.48.13:998][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.11.02-12.48.14:000][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Intermediate/Shaders/WorkingDirectory/10132/).
+[2017.11.02-12.48.14:000][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/B24E148145088B83A9AB34B1EBD07EB8/'.
+[2017.11.02-12.48.14:000][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.02-12.48.15:019][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.02-12.48.15:080][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.02-12.48.15:142][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.02-12.48.15:205][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.02-12.48.15:268][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.02-12.48.15:331][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.02-12.48.15:394][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.02-12.48.15:456][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.02-12.48.15:511][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.02-12.48.15:571][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.02-12.48.15:631][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.02-12.48.15:694][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.02-12.48.15:755][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.02-12.48.15:816][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.02-12.48.15:876][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.02-12.48.15:998][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.02-12.48.15:998][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.02-12.48.16:051][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.02-12.48.16:156][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.02-12.48.16:191][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.02-12.48.16:251][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.02-12.48.16:311][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.02-12.48.16:371][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.02-12.48.16:431][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.02-12.48.16:431][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.02-12.48.17:003][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.02-12.48.17:108][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/user/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.02-12.48.17:108][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.02-12.48.17:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.02-12.48.17:108][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.02-12.48.17:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.02-12.48.17:108][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.02-12.48.17:127][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.02-12.48.17:140][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.02-12.48.17:152][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.02-12.48.17:152][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.02-12.48.17:153][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.02-12.48.17:153][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.02-12.48.17:446][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2017.11.02-12.48.17:590][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.02-12.48.17:789][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.02-12.48.18:201][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.02-12.48.18:255][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.02-12.48.18:255][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.02-12.48.18:255][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.02-12.48.18:255][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.02-12.48.18:256][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.02-12.48.18:683][  0]LogNetVersion: AnonU , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2782841342)
+[2017.11.02-12.48.19:018][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.114724 seconds
+[2017.11.02-12.48.19:027][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.02-12.48.19:027][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.02-12.48.19:027][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.02-12.48.19:117][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.02-12.48.22:484][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.02-12.48.22:531][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.02-12.48.23:343][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.02-12.48.23:846][  0]SourceControl: Source control is disabled
+[2017.11.02-12.48.23:846][  0]SourceControl: Source control is disabled
+[2017.11.02-12.48.23:907][  0]SourceControl: Source control is disabled
+[2017.11.02-12.48.23:966][  0]SourceControl: Source control is disabled
+[2017.11.02-12.48.24:678][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.02-12.48.24:985][  0]LogOcInput: OculusInput pre-init called
+[2017.11.02-12.48.25:294][  0]LogEngine: Initializing Engine...
+[2017.11.02-12.48.25:296][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.02-12.48.25:567][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.02-12.48.25:567][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.02-12.48.25:732][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.02-12.48.25:742][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-12.48.25:799][  0]LogInit: FAudioDevice initialized.
+[2017.11.02-12.48.25:896][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/user/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.02-12.48.25:913][  0]LogInit: Texture streaming: Enabled
+[2017.11.02-12.48.26:052][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.02-12.48.26:327][  0]LogInit: Transaction tracking system initialized
+[2017.11.02-12.48.26:716][  0]BlueprintLog: New page: Editor Load
+[2017.11.02-12.48.27:829][  0]LocalizationService: Localization service is disabled
+[2017.11.02-12.48.28:777][  0]LogConsoleResponse: Display: 
+[2017.11.02-12.48.29:007][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.02-12.48.29:008][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.02-12.48.29:008][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.02-12.48.29:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/AnonU/AnonU/Content/' took 0.02s
+[2017.11.02-12.48.30:343][  0]SourceControl: Source control is disabled
+[2017.11.02-12.48.30:343][  0]Cmd: MAP LOAD FILE="../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.02-12.48.30:344][  0]LightingResults: New page: Lighting Build
+[2017.11.02-12.48.30:395][  0]MapCheck: New page: Map Check
+[2017.11.02-12.48.30:395][  0]LightingResults: New page: Lighting Build
+[2017.11.02-12.48.30:903][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.11.02-12.48.30:972][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/Minigame) is flushing async loading
+[2017.11.02-12.48.31:083][  0]LogBlueprint: Warning: [Compiler PuzzlePlayerCharacter] InputAction Event references unknown Action 'TriggerClick' for  InputAction TriggerClick
+[2017.11.02-12.48.31:083][  0]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.02-12.48.31:083][  0]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.02-12.48.31:083][  0]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.02-12.48.31:083][  0]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] Could not find a function named "HighlightOff" in 'PuzzleBlock_C'.
+Make sure 'PuzzleBlock_C' has been compiled for  Highlight Off
+[2017.11.02-12.48.31:083][  0]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.02-12.48.31:083][  0]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.02-12.48.31:083][  0]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] Could not find a function named "HighlightOn" in 'PuzzleBlock_C'.
+Make sure 'PuzzleBlock_C' has been compiled for  Highlight On
+[2017.11.02-12.48.31:084][  0]LogBlueprint: Error: [Compiler PuzzlePlayerCharacter] This blueprint (self) is not a PuzzleBlock_C, therefore ' Target ' must have a connection.
+[2017.11.02-12.48.31:086][  0]LogBlueprint: Warning: [Compiler PuzzlePlayerCharacter] [0020.47] Compile of PuzzlePlayerCharacter failed. 8 Fatal Issue(s) 1 Warning(s) [in 8 ms] (/Game/PuzzleBP/Blueprints/PuzzlePlayerCharacter.PuzzlePlayerCharacter)
+[2017.11.02-12.48.31:205][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.02-12.48.31:261][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.02-12.48.31:346][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.984ms to complete.
+[2017.11.02-12.48.31:346][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.003
+[2017.11.02-12.48.31:425][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.02-12.48.31:426][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.02-12.48.31:529][  0]LogCollectionManager: Loaded 0 collections in 0.002607 seconds
+[2017.11.02-12.48.31:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Collections/' took 0.01s
+[2017.11.02-12.48.31:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/AnonU/AnonU/Content/Developers/user/Collections/' took 0.01s
+[2017.11.02-12.48.31:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/AnonU/AnonU/Content/Collections/' took 0.01s
+[2017.11.02-12.48.31:638][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.02-12.48.31:649][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2386 classes and 500 folders.
+[2017.11.02-12.48.31:730][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.02-12.48.31:786][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.02-12.48.31:843][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.02-12.48.31:924][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.02-12.48.31:927][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.02-12.48.31:934][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.02-12.48.32:051][  0]LogRenderer: Reallocating scene render targets to support 836x464 Format 10 NumSamples 1 (Frame:1).
+[2017.11.02-12.48.32:852][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.02-12.48.32:852][  0]LogLoad: (Engine Initialization) Total time: 22.24 seconds
+[2017.11.02-12.48.32:852][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.02-12.48.32:853][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.02-12.48.32:895][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.02-12.48.32:907][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.02-12.48.32:950][  1]LogAssetRegistry: Asset discovery search completed in 15.5256 seconds
+[2017.11.02-12.48.32:952][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.02-12.48.32:952][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2017.11.02-12.48.49:757][458]LogEditorViewport: Clicking on Actor (LMB): girlSpriteBP_C (girlSpriteBP)
+[2017.11.02-12.48.49:865][458]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PaperSprite)
+[2017.11.02-12.48.51:189][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.02-12.48.53:512][542]LogEditorViewport: Clicking on Actor (LMB): girlSpriteBP_C (girlSpriteBP)
+[2017.11.02-12.48.54:989][577]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.02-12.48.55:465][577]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.11.02-12.48.56:241][577]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.02-12.48.56:921][592]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.02-12.49.06:963][748]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.02-12.49.29:573][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.02-12.51.08:929][477]LogSavePackage: Save=12.28ms
+[2017.11.02-12.51.08:929][477]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/girlLeftFlipbook87C205A242BCBBF85D2B02B456E756A2.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Content/TopDownBP/Blueprints/NPC/girlLeftFlipbook.uasset'
+[2017.11.02-12.51.08:944][477]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Content/TopDownBP/Blueprints/NPC/girlLeftFlipbook.uasset
+[2017.11.02-12.51.14:732][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.02-12.51.16:902][700]LogRenderer: Reallocating scene render targets to support 888x568 Format 10 NumSamples 1 (Frame:1).
+[2017.11.02-12.58.33:378][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.036
+[2017.11.02-12.58.33:384][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/NPC/girlSpriteBP] ([1] browsable assets)...
+[2017.11.02-12.58.33:384][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/NPC/girlSpriteBP]
+[2017.11.02-12.58.33:469][459]LogSavePackage: Save=52.46ms
+[2017.11.02-12.58.33:469][459]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/girlSpriteBP_Auto1AC6C6157466CDCB012BE55BD77F98305.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlSpriteBP_Auto1.uasset'
+[2017.11.02-12.58.33:475][459]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlSpriteBP_Auto1.uasset
+[2017.11.02-12.58.33:478][459]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/NPC/girlLeftFlipbook] ([1] browsable assets)...
+[2017.11.02-12.58.33:489][459]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/TopDownBP/Blueprints/NPC/girlLeftFlipbook.girlLeftFlipbook]
+[2017.11.02-12.58.33:489][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/NPC/girlLeftFlipbook]
+[2017.11.02-12.58.33:530][459]LogSavePackage: Save=15.78ms
+[2017.11.02-12.58.33:530][459]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/girlLeftFlipbook_Auto1DFAE239E415F8404CD820BA25186C32F.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlLeftFlipbook_Auto1.uasset'
+[2017.11.02-12.58.33:534][459]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlLeftFlipbook_Auto1.uasset
+[2017.11.02-12.58.33:538][459]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/NPC/girlIdle] ([1] browsable assets)...
+[2017.11.02-12.58.33:548][459]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/TopDownBP/Blueprints/NPC/girlIdle.girlIdle]
+[2017.11.02-12.58.33:548][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/NPC/girlIdle]
+[2017.11.02-12.58.33:592][459]LogSavePackage: Save=20.23ms
+[2017.11.02-12.58.33:593][459]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/girlIdle_Auto1FD0C28A844784A0DF94663B8BD217DED.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlIdle_Auto1.uasset'
+[2017.11.02-12.58.33:599][459]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlIdle_Auto1.uasset
+[2017.11.02-12.58.33:603][459]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/NPC/girlRightFlipbook] ([1] browsable assets)...
+[2017.11.02-12.58.33:614][459]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/TopDownBP/Blueprints/NPC/girlRightFlipbook.girlRightFlipbook]
+[2017.11.02-12.58.33:614][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/NPC/girlRightFlipbook]
+[2017.11.02-12.58.33:635][459]LogSavePackage: Save=15.52ms
+[2017.11.02-12.58.33:635][459]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/girlRightFlipbook_Auto1846748B840F2869DF5D2C99E4DC9BA4F.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlRightFlipbook_Auto1.uasset'
+[2017.11.02-12.58.33:639][459]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlRightFlipbook_Auto1.uasset
+[2017.11.02-12.58.33:639][459]LogFileHelpers: Auto-saving content packages took 0.261
+[2017.11.02-13.07.28:694][374]BlueprintLog: New page: Compile girlSpriteBP
+[2017.11.02-13.07.28:753][374]LogBlueprint: Error: [Compiler girlSpriteBP] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2017.11.02-13.07.29:077][374]LogBlueprint: Warning: [Compiler girlSpriteBP] [1158.46] Compile of girlSpriteBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 383 ms] (/Game/TopDownBP/Blueprints/NPC/girlSpriteBP.girlSpriteBP)
+[2017.11.02-13.09.01:075][751]LogSavePackage: Save=379.50ms
+[2017.11.02-13.09.01:075][751]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/TopDownExampleMap_Auto2505915F2435BA1E49131ABB88A99A63F.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2017.11.02-13.09.01:082][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap
+[2017.11.02-13.09.01:088][751]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.498
+[2017.11.02-13.09.01:088][751]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.498
+[2017.11.02-13.09.01:093][751]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/NPC/girlSpriteBP] ([1] browsable assets)...
+[2017.11.02-13.09.01:093][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/NPC/girlSpriteBP]
+[2017.11.02-13.09.01:159][751]LogSavePackage: Save=41.71ms
+[2017.11.02-13.09.01:159][751]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/girlSpriteBP_Auto28C165C1B4B4D94EA76CA5B88E057F39D.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlSpriteBP_Auto2.uasset'
+[2017.11.02-13.09.01:164][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlSpriteBP_Auto2.uasset
+[2017.11.02-13.09.01:164][751]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.11.02-13.23.33:123][541]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.032
+[2017.11.02-13.23.33:127][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/NPC/girlSpriteBP] ([1] browsable assets)...
+[2017.11.02-13.23.33:127][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/NPC/girlSpriteBP]
+[2017.11.02-13.23.33:209][541]LogSavePackage: Save=53.70ms
+[2017.11.02-13.23.33:209][541]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/girlSpriteBP_Auto339C9DAFE4C3CCEA99A1A47B6F6E86F12.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlSpriteBP_Auto3.uasset'
+[2017.11.02-13.23.33:214][541]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/AnonU/AnonU/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC/girlSpriteBP_Auto3.uasset
+[2017.11.02-13.23.33:214][541]LogFileHelpers: Auto-saving content packages took 0.090
+[2017.11.02-13.25.20:399][976]BlueprintLog: New page: Compile girlSpriteBP
