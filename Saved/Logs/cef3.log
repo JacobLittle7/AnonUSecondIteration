@@ -1,0 +1,51 @@
+[1207/093837:ERROR:render_media_log.cc(20)] MediaEvent: PIPELINE_ERROR demuxer: could not open
+[1207/093837:ERROR:render_media_log.cc(20)] MediaEvent: PIPELINE_ERROR demuxer: could not open
+[1207/093837:ERROR:render_media_log.cc(20)] MediaEvent: PIPELINE_ERROR demuxer: could not open
+[1207/093928:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/093957:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/095158:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/095434:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/095456:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/095709:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/112723:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/112836:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/113017:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/113226:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/113506:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/113605:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/113649:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/113654:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/113749:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/125156:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/125217:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/125256:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/132138:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/132155:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/132238:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/132520:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/132528:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/132931:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/140552:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/140720:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/140816:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/140956:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/141059:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/142304:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/143801:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1207/144020:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/144050:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/144219:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/144225:ERROR:ipc_channel_win.cc(475)] pipe error: 995
+[1207/144225:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/144536:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/150935:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/150956:WARNING:audio_sync_reader.cc(112)] AudioSyncReader::Read timed out, audio glitch count=1
+[1207/151035:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/151058:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/151105:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/151744:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/151902:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/153125:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/155223:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/155409:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[1207/155419:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
